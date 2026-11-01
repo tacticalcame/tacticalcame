@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 112">
+  <path d="M7 4h82l-8 92-33 12-33-12z" fill="#e65b35"/>
+  <path d="M48 15h31l-6 73-25 9z" fill="#ef7650"/>
+  <path d="M25 25h47l-2 11H37l2 12h30l-4 33-17 6-17-6-2-17h11l1 9 7 2 7-2 1-14H31z" fill="#fff"/>
+  <text x="48" y="105" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="9" font-weight="700">HTML5</text>
+</svg>

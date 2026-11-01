@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#f2f4f6"/>
+  <rect x="24" y="24" width="952" height="472" rx="8" fill="#fff" stroke="#cbd2d8" stroke-width="2"/>
+  <rect x="24" y="24" width="952" height="68" rx="8" fill="#263a45"/>
+  <text x="56" y="68" fill="#fff" font-family="Arial,sans-serif" font-size="27" font-weight="700">Nu Html Checker</text>
+  <text x="56" y="133" fill="#35454d" font-family="Arial,sans-serif" font-size="22" font-weight="700">Example report - after corrections</text>
+  <rect x="56" y="157" width="888" height="190" rx="6" fill="#edf7f0" stroke="#64a47b" stroke-width="2"/>
+  <circle cx="108" cy="215" r="24" fill="#3b8c5a"/>
+  <path d="M96 215l9 9 17-20" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="151" y="209" fill="#28623e" font-family="Arial,sans-serif" font-size="22" font-weight="700">Document checking completed.</text>
+  <text x="151" y="244" fill="#28623e" font-family="Arial,sans-serif" font-size="19">No errors or warnings to show.</text>
+  <path d="M80 285h840" stroke="#c8dfcf" stroke-width="2"/>
+  <text x="80" y="322" fill="#53675a" font-family="Arial,sans-serif" font-size="17">The document structure and required attributes have been corrected.</text>
+  <rect x="56" y="374" width="888" height="55" rx="5" fill="#f4f7f5"/>
+  <text x="78" y="409" fill="#53675a" font-family="Arial,sans-serif" font-size="16">Result shown as a schematic example.</text>
+  <text x="56" y="466" fill="#69777d" font-family="Arial,sans-serif" font-size="15">Schematic illustration, not an actual validator capture.</text>
+</svg>

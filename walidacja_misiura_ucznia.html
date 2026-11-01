@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Nazar Misiura">
+    <meta name="description" content="Walidacja stron HTML z zadania 6">
+    <title>Walidacja HTML - Nazar Misiura</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 24px;
+            background-color: #d3d3d3;
+            color: #171717;
+            font: 18px/1.6 Arial, sans-serif;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #fff;
+            border: 2px solid #333;
+        }
+
+        figure {
+            margin: 16px 0 32px;
+        }
+
+        figure img {
+            display: block;
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+        }
+
+        .html5-badge {
+            width: 96px;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                font-size: 16px;
+            }
+
+            main {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <p><a href="index.html">Powrót do strony głównej</a></p>
+    <h1>Walidacja strony WWW</h1>
+    <p><strong>Walidacja strony HTML</strong> to sprawdzenie, czy kod dokumentu jest zgodny ze standardem HTML, ma poprawną strukturę i nie zawiera błędów składniowych.</p>
+    <p><strong>Walidator</strong> to narzędzie, które analizuje kod strony i wskazuje błędy oraz ostrzeżenia. Do sprawdzenia użyto <a href="https://validator.w3.org/nu/">Nu Html Checker W3C</a>.</p>
+    <h2>Raport walidatora przed poprawą</h2>
+    <figure>
+        <img src="walidator-animowany.gif" alt="Animowany zrzut raportu walidatora z błędami przed poprawkami">
+    </figure>
+
+    <h2>Wynik walidacji po poprawie</h2>
+    <figure>
+        <img src="bezb-animowany.gif" alt="Animowany zrzut raportu walidatora bez błędów i ostrzeżeń, podpis Nazar Misiura">
+    </figure>
+
+    <p><a href="https://validator.w3.org/nu/"><img class="html5-badge" src="html5-badge.svg" alt="Znacznik HTML5"></a></p>
+</main>
+</body>
+</html>

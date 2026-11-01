@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#f2f4f6"/>
+  <rect x="24" y="24" width="952" height="472" rx="8" fill="#fff" stroke="#cbd2d8" stroke-width="2"/>
+  <rect x="24" y="24" width="952" height="68" rx="8" fill="#263a45"/>
+  <text x="56" y="68" fill="#fff" font-family="Arial,sans-serif" font-size="27" font-weight="700">Nu Html Checker</text>
+  <text x="56" y="133" fill="#35454d" font-family="Arial,sans-serif" font-size="22" font-weight="700">Example report - before corrections</text>
+  <rect x="56" y="157" width="888" height="78" rx="5" fill="#fff0ee" stroke="#d76b61" stroke-width="2"/>
+  <circle cx="88" cy="196" r="15" fill="#c64238"/>
+  <text x="119" y="190" fill="#822a24" font-family="Arial,sans-serif" font-size="19" font-weight="700">Error: An image is missing alternative text.</text>
+  <text x="119" y="216" fill="#5e5554" font-family="Arial,sans-serif" font-size="16">Check the img element and provide a descriptive alt value.</text>
+  <rect x="56" y="251" width="888" height="78" rx="5" fill="#fff0ee" stroke="#d76b61" stroke-width="2"/>
+  <circle cx="88" cy="290" r="15" fill="#c64238"/>
+  <text x="119" y="284" fill="#822a24" font-family="Arial,sans-serif" font-size="19" font-weight="700">Error: A paragraph element is not closed.</text>
+  <text x="119" y="310" fill="#5e5554" font-family="Arial,sans-serif" font-size="16">Review the document structure near the reported line.</text>
+  <rect x="56" y="345" width="888" height="78" rx="5" fill="#fff8e7" stroke="#dda744" stroke-width="2"/>
+  <path d="M88 365l17 31H71z" fill="#d29120"/>
+  <text x="119" y="378" fill="#795514" font-family="Arial,sans-serif" font-size="19" font-weight="700">Warning: The document language is not set.</text>
+  <text x="119" y="404" fill="#5e5554" font-family="Arial,sans-serif" font-size="16">Set the lang attribute on the html element.</text>
+  <text x="56" y="466" fill="#69777d" font-family="Arial,sans-serif" font-size="15">Schematic illustration, not an actual validator capture.</text>
+</svg>

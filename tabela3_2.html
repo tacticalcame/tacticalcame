@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Komponenty komputerowe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 40px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 700px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 12px 14px;
+      text-align: center;
+    }
+
+    th {
+      background: #dfeeff;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th></th>
+      <th>CPU</th>
+      <th>GPU</th>
+      <th>RAM</th>
+    </tr>
+
+    <tr>
+      <th rowspan="2">PC 1</th>
+      <td rowspan="2">Intel Core i7-12700K</td>
+      <td>RTX 4070</td>
+      <td>32 GB DDR4</td>
+    </tr>
+
+    <tr>
+      <td>RTX 3060</td>
+      <td>16 GB DDR5</td>
+    </tr>
+
+    <tr>
+      <th>PC 2</th>
+      <td>AMD Ryzen 5 5600X</td>
+      <td>RX 6600 XT</td>
+      <td>16 GB DDR4</td>
+    </tr>
+
+    <tr>
+      <th>PC 3</th>
+      <td>Intel Core i5-12400F</td>
+      <td>GTX 1660 Super</td>
+      <td>24 GB DDR4</td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,4 +1,4 @@
-## https://tacticalcame.github.io/tacticalcame/sklep_warzywniczy/index.html
+## https://tacticalcame.github.io/tacticalcame/docs/index.html
 ## moje projekty
 
 

@@ -1,4 +1,4 @@
-## https://tacticalcame.github.io/tacticalcame/docs/index.html
+## https://tacticalcame.github.io/tacticalcame/index.html
 ## moje projekty
 
 

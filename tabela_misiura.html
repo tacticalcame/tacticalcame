@@ -1,14 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tabela - Nazar Misiura</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nazar Misiura">
+  <meta name="date" content="2026-11-08">
+  <title>Zielony Kącik Warzywniczy | Tabela | Wykonał MISIURA</title>
+  <!-- Praca praktyczna, 2026-11-08 — Nazar Misiura. -->
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 24px;
+      display: grid;
+      place-items: center;
+      background: #f7f6f1;
+      font-family: "Times New Roman", serif;
+      color: #000;
+    }
+    .computer-table {
+      width: min(100%, 620px);
+      border: 5px solid #20c8cf;
+      padding: 0 0 0;
+      background: #fff;
+      text-align: center;
+    }
+    h1 {
+      margin: 18px 8px 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+    }
+    table {
+      width: calc(100% - 12px);
+      margin: 0 6px 6px;
+      border-collapse: collapse;
+      border: 2px solid #82dbde;
+      table-layout: fixed;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    th {
+      height: 58px;
+      padding: 8px 4px;
+      border: 1px solid #24b6bd;
+      background: #ed0000;
+      font-size: 17px;
+      line-height: 1.25;
+    }
+    td {
+      height: 46px;
+      padding: 7px 4px;
+      border: 1px solid #67ccd1;
+      background: #fff;
+      font-size: 15px;
+    }
+    tbody tr:nth-child(1) td:first-child,
+    tbody tr:nth-child(3) td:first-child,
+    tbody tr:nth-child(5) td:first-child {
+      color: #ff0000;
+      font-weight: 700;
+    }
+    tbody tr:nth-child(2) td:first-child,
+    tbody tr:nth-child(6) td:first-child {
+      color: #c90000;
+      font-weight: 700;
+    }
+    tbody tr:nth-child(4) td:first-child {
+      color: #ff0000;
+      font-weight: 700;
+    }
+    tbody tr:nth-child(2) td {
+      background: #ffe0e0;
+    }
+    tbody tr:nth-child(3) td {
+      background: #fffbe7;
+    }
+    .status {
+      width: 20%;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 700;
+      border-left: 1px solid #67ccd1;
+    }
+    .footer-row td {
+      height: 42px;
+      border: 0;
+      background: #d9a7a7;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+    }
+    @media (max-width: 560px) {
+      body { padding: 10px; }
+      h1 { font-size: 20px; }
+      th { height: 64px; font-size: 13px; }
+      td { height: 48px; font-size: 12px; }
+      .status, .footer-row td { font-size: 18px; }
+    }
+  </style>
 </head>
 <body>
-
-    <h1>Tabela</h1>
-    <p>Tutaj będzie tabela</p>
-    <p><a href="index.html">Powrót do strony głównej</a></p>
+  <main class="computer-table">
+    <h1>Parametry komputerów - Nazar Misiura 2G/2</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Model karty<br>graficznei</th>
+          <th>Taktowanie<br>bazowe</th>
+          <th>Rozmiar<br>pamieci</th>
+          <th>Szyna<br>pamieci</th>
+          <th>Typ<br>chłodzenia</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>RTX 4080</td><td>2205 MHz</td><td>20 GB</td><td>320-bit</td>
+          <td rowspan="6" class="status">Aktywne</td>
+        </tr>
+        <tr><td>RX 7900 XT</td><td>2000 MHz</td><td>20 GB</td><td>320-bit</td></tr>
+        <tr><td>RTX 4070 Super</td><td>1980 MHz</td><td>12 GB</td><td>192-bit</td></tr>
+        <tr><td>RX 7700 XT</td><td>2544 MHz</td><td>12 GB</td><td>192-bit</td></tr>
+        <tr><td>Arc B580</td><td>2670 MHz</td><td>20 GB</td><td>320-bit</td></tr>
+        <tr><td>RTX 4060</td><td>1830 MHz</td><td>20 GB</td><td>320-bit</td></tr>
+        <tr class="footer-row"><td colspan="5">Dane komputerowe</td></tr>
+      </tbody>
+    </table>
+  </main>
 </body>
 </html>
